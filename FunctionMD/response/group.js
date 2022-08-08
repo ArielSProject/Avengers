@@ -23,7 +23,7 @@
         sock.sendMessage(
          update.id, 
          { 
-         caption: `Halo @${num.split("@")[0]} Member Baru Di *${metadata.subject}*\n${metadata.desc}`, 
+         caption: `Halo @${num.split("@")[0]} Member Baru Di *${metadata.subject}*\n\n${metadata.desc}`, 
          image: { url: ppuser },
          buttons: button, 
          footer: 'Ariel Sandy Permana', mentions: [num] })
